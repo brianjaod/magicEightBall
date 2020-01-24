@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     let ballArray = [#imageLiteral(resourceName: "ball1"),#imageLiteral(resourceName: "ball2"),#imageLiteral(resourceName: "ball3"),#imageLiteral(resourceName: "ball4"),#imageLiteral(resourceName: "ball5")]
     
     @IBAction func askButtonPressed(_ sender: UIButton) {
-        print("Ask button pressed")
+        //print("Ask button pressed")
         ballPic.image = ballArray.randomElement()        
         // default back to ? pic after delay
         delayWithSeconds(3){
